@@ -3,6 +3,23 @@
 <html>
 
 <head>
+	   <style>
+    .holder {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr); /* Two rows of equal size */
+        grid-template-columns: repeat(2, 1fr); /* Two columns of equal size */
+        width: 200px; /* Total width of the grid */
+        height: 200px; /* Total height of the grid */
+        gap: 0; /* No gap between grid items (optional) */
+      }
+      
+      .item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black; /* Optional: To visualize grid items */
+      }
+    </style>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
